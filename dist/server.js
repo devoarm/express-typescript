@@ -15,5 +15,5 @@ dotenv_1.default.config();
 app.use("/", routes_1.routes);
 // start the server
 app.listen(process.env.PORT, () => {
-    console.log(`server running : ${process.env.PORT}`);
+    console.log(`server running : PORT => ${process.env.PORT}`);
 });
